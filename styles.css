@@ -1,0 +1,23 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    justify-content: center;
+}
+
+.night-theme {
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 250px;
+    border: none;
+    background-color: rgba(60, 60, 60, 0.92);
+    color: white;
+}
